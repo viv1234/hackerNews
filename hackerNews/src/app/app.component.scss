@@ -1,0 +1,23 @@
+.header{
+    padding: 10px 0;
+    background-color: #0063B2FF;
+    .logo{
+        color: #fff;
+        
+    }
+    .navigation{
+        ul{
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            li{
+                display: inline-block;
+                margin-right: 20px;
+                color: #fff;
+                cursor: pointer;
+                outline: none;
+                text-transform: none;
+            }
+        }
+    }
+}

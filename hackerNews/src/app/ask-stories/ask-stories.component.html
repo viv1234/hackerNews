@@ -1,0 +1,17 @@
+<section class="page-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="list-unstyled">
+                    <li *ngFor="let news of newsList; let i = index">
+                        <div class="box">
+                            <h4>{{i+1}}. {{news.title}}  by {{news.by}} time {{news.time }}
+                            </h4>
+                            <p>{{news.text}}</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
