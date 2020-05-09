@@ -7,13 +7,26 @@
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 15px;
+
     h4 {
       font-size: 16px;
       margin-bottom: 5px;
+      .news-by {
+        color: #0063b2ff;
+      }
+      .news-time {
+        color: #cc0000;
+      }
     }
     p {
       font-size: 14px;
       margin-bottom: 0px;
+      .news-by {
+        color: #0063b2ff;
+      }
+      .news-time {
+        color: #cc0000;
+      }
     }
   }
 }

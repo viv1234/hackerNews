@@ -5,7 +5,8 @@
                 <ul class="list-unstyled">
                     <li *ngFor="let news of newsList; let i = index">
                         <div class="box">
-                            <h4>{{i+1}}. {{news.title}}  by {{news.by}} time {{news.time }}
+                            <h4>{{i+1}}. {{news.title}} <span class="news-by">by : {{news.by}}</span>
+                                <span class="news-time"> time : {{news.time | date:'medium' }}</span>
                             </h4>
                             <p>{{news.text}}</p>
                         </div>
